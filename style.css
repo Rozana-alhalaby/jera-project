@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
+  
+  .jeera {
+    margin-right: 10px;
+  }
+  /* @media screen and (max-width: 768px) {
+    .firstsection {
+      flex-direction: column;
+      align-items: center;
+      background-size: 100%;
+    }*/
+  
+  /* @media screen and (max-width: 600px) {
+    .textcard {
+      font-size: 20px;
+      margin-left: 100px;
+    } */
+  h1 {
+    font-size: 35px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+  }
+  .firstsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .icon {
+    height: 20px;
+    width: 30px;
+  }
+  .cardheader {
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    margin: 130px 260px;
+    width: 250px;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .textcard {
+    font-size: 40px;
+  }
+  button {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-right: 110px;
+    padding: 4px;
+  }
+  
+  .secondsection {
+    background-color: rgb(216, 212, 212);
+  }
+  .text {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+  
+  .secondheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  hr {
+    border: 1px solid grey;
+    width: 70px;
+    margin: 20px 0px;
+  }
+  .paragraph {
+    display: flex;
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+  
+  .icon1 {
+    height: 30px;
+    width: 30px;
+    display: inline;
+    margin-top: 9px;
+  }
+  .firstcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title {
+    display: block;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  span {
+    display: block;
+    text-align: center;
+  }
+  .cardp {
+    margin-top: 9px;
+    margin-left: 20px;
+  }
+  .cardT {
+    padding-left: 15px;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  .icon2 {
+    height: 50px;
+    width: 50px;
+    display: inline;
+    background-color: grey;
+    margin-top: 9px;
+  }
+  
+  .lastcard {
+    width: 350px;
+    height: 500px;
+    margin-left: 70px;
+  }
+  .textmarg {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* .container {
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+  } */
+  .firstsection .adv {
+    width: 50%;
+  }
+  main {
+    position: relative;
+  }
+  @media only screen and (max-width: 940px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid red;
+      position: unset;
+    }
+    .firstsection .adv {
+      width: unset;
+    }
+    .firstsection {
+      flex-direction: column;
+    }
+    .textcard {
+      align-self: center;
+      padding-left: 250px;
+    }
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  @media only screen and (max-width: 500px) {
+    .cards {
+      flex-direction: column;
+    }
+    .lastcard {
+      width: unset;
+      margin-right: 150px;
+    }
+  }
+  .laptop img {
+    width: unset;
+    height: auto;
+    display: block;
+  }
+  .lastsection {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  @media only screen and (max-width: 350px) {
+    .textcard h1 {
+      font-size: 30px;
+    }
+    .cardheader {
+      width: unset;
+    }
+    .laptop img {
+      width: unset;
+    }
+    .lastcard {
+      margin: auto;
+      padding: 10px;
+    }
+  }
+  .lastsection {
+    display: flex;
+    justify-content: space-between;
+  }
+  .laptop {
+    width: 50%;
+    height: auto;
+  }
+  .laptop img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  @media only screen and (max-width: 830px) {
+    .lastcard {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 250px;
+    }
+    .laptop {
+      width: 100%;
+    }
+  
+    .textcard {
+      align-self: center;
+      padding-left: 150px;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    .lastcard {
+      margin-left: 150px;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .lastcard {
+      display: block;
+      margin: auto;
+    }
+}
